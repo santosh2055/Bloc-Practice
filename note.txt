@@ -1,0 +1,16 @@
+BLoC Concepts
+
+
+1. Bloc and Cubit => Cubit is part of Bloc and used for simple      function where as Bloc is Emits and receive stream BUT Cubit     emits function and receives stream.
+
+
+2. Bloc Provider => It provide bloc to all it's children widgets 
+also known as dependency injection.
+
+
+3. BlocBuilder => Rebuild the UI when state chaneges.Builder function called the multiple times.
+
+
+4. BlocListner =>Uses when Navigation and uplash screen for updating the UI when state changes.It is called only once per state. 
+
+5. BlocConsumer => BlocBulider + BlocListner
